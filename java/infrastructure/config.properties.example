@@ -1,0 +1,17 @@
+# Configuración de conexión a MySQL para SIAA (plantilla)
+# Copiá este archivo como "config.properties" y completá la clave real.
+# No subir credenciales reales al repo.
+
+db.host=127.0.0.1     # usar IP del servidor si no es local (ej.: 192.168.1.50)
+db.port=3306
+db.schema=siaa_db
+db.user=app_siaa
+db.pass=********
+db.ssl=true
+
+# (Opcional) timeouts razonables para prototipo
+db.connectTimeoutMs=5000
+db.socketTimeoutMs=10000
+
+# URL JDBC resultante (referencia)
+# jdbc:mysql://<host>:3306/siaa_db?useSSL=true&requireSSL=true&characterEncoding=utf8&serverTimezone=UTC
