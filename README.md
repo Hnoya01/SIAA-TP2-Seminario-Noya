@@ -40,7 +40,6 @@ Incluye el **script SQL completo**, la **estructura base en Java (MVC)** y mater
 
 ├── /imagenes/ # Diagramas y capturas del informe
 
-└── /sql/ # Consultas de evidencia
 
 
 ## ⚙️ Requisitos y entorno
