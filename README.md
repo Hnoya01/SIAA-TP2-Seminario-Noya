@@ -21,16 +21,26 @@ Incluye el **script SQL completo**, la **estructura base en Java (MVC)** y mater
 
 /
 ├── README.md
-├── NOYA-HERNAN-AP2.sql               # Script de la base de datos (MySQL 8.x)
-├── /java/                            # Estructura base del proyecto (MVC)
-│   ├── /domain/                      # Entidades y enums del dominio
-│   ├── /application/                 # Servicios y reglas de negocio
-│   ├── /persistence/                 # Interfaces e implementación JDBC
-│   ├── /ui/                          # Interfaz o punto de entrada (JavaFX/Swing)
-│   └── /infrastructure/              # Configuración y utilitarios
-│       └── config.properties.example # Plantilla de conexión
-├── /imagenes/                        # Diagramas y capturas del informe (opcional)
-└── /sql/                             # Consultas de evidencia (opcional)
+
+├── NOYA-HERNAN-AP2.sql # Script de la base de datos (MySQL 8.x)
+
+├── /java/ # Estructura base del proyecto (MVC)
+
+│ ├── /domain/ # Entidades y enums del dominio
+
+│ ├── /application/ # Servicios y reglas de negocio
+
+│ ├── /persistence/ # Interfaces e implementación JDBC
+
+│ ├── /ui/ # Interfaz o punto de entrada (JavaFX/Swing)
+
+│ └── /infrastructure/ # Configuración y utilitarios
+
+│ └── config.properties.example # Plantilla de conexión
+
+├── /imagenes/ # Diagramas y capturas del informe (opcional)
+
+└── /sql/ # Consultas de evidencia (opcional)
 
 
 ## ⚙️ Requisitos y entorno
