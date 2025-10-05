@@ -38,9 +38,9 @@ Incluye el **script SQL completo**, la **estructura base en Java (MVC)** y mater
 
 │ └── config.properties.example # Plantilla de conexión
 
-├── /imagenes/ # Diagramas y capturas del informe (opcional)
+├── /imagenes/ # Diagramas y capturas del informe
 
-└── /sql/ # Consultas de evidencia (opcional)
+└── /sql/ # Consultas de evidencia
 
 
 ## ⚙️ Requisitos y entorno
